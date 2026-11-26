@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Manual Técnico · Grupo 6</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"border-subtle":"#3c4a42","primary":"#6ffbbe","surface":"#0d1322","tertiary-fixed":"#d7e6db","surface-base":"#0d1322","secondary-container":"#03b5d4","on-tertiary":"#26332c","surface-container-lowest":"#080e1d","on-secondary-fixed-variant":"#004e5c","error-container":"#93000a","on-tertiary-fixed":"#111e18","error":"#ffb4ab","on-primary-fixed":"#002114","on-tertiary-container":"#47554d","tertiary-fixed-dim":"#bbcac0","on-primary-container":"#005f40","inverse-surface":"#dde2f7","outline":"#86948a","status-warning":"#f5a623","tertiary-container":"#bacabf","surface-variant":"#2f3445","surface-tint":"#4edea3","on-primary":"#003824","surface-container-high":"#242a3a","accent-terminal":"#4edea3","inverse-primary":"#006c4a","background":"#0d1322","surface-container":"#191f2f","status-error":"#ff6e6e","surface-bright":"#333949","surface-container-low":"#151b2b","text-secondary":"#bbcabf","on-secondary":"#003640","secondary":"#4cd7f6","primary-fixed":"#6ffbbe","surface-dim":"#0d1322","on-secondary-container":"#00424e","on-surface":"#dde2f7","outline-variant":"#3c4a42","on-surface-variant":"#bbcac0","on-error-container":"#ffdad6","inverse-on-surface":"#2a3040","secondary-fixed":"#acedff","on-background":"#dde2f7","secondary-fixed-dim":"#4cd7f6","on-primary-fixed-variant":"#005236","accent-cyan":"#4cd7f6","tertiary":"#d6e6db","on-tertiary-fixed-variant":"#3c4a42","surface-container-highest":"#2f3445","primary-fixed-dim":"#4edea3","on-error":"#690005","primary-container":"#4edea3","text-primary":"#dde2f8"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-xs":"0.25rem","space-md":"1rem","space-sm":"0.5rem","space-lg":"1.5rem","space-2xl":"4rem","margin":"2rem","gutter":"1.5rem","margin-mobile":"1rem","space-xl":"2.5rem","gutter-mobile":"1rem"},"fontFamily":{"headline-xl-mobile":["Inter"],"headline-xl":["Inter"],"body-lg":["Inter"],"headline-lg-mobile":["Inter"],"label-md":["JetBrains Mono"],"code-lg":["JetBrains Mono"],"label-sm":["JetBrains Mono"],"headline-sm":["Inter"],"body-md":["Inter"],"headline-lg":["Inter"],"headline-md":["Inter"],"code-md":["JetBrains Mono"],"body-sm":["Inter"]},"fontSize":{"headline-xl-mobile":["32px",{"lineHeight":"40px","fontWeight":"700"}],"headline-xl":["44px",{"lineHeight":"52px","fontWeight":"700"}],"body-lg":["16px",{"lineHeight":"26px","fontWeight":"400"}],"headline-lg-mobile":["26px",{"lineHeight":"34px","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.05em","fontWeight":"500"}],"code-lg":["14px",{"lineHeight":"22px","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.08em","fontWeight":"500"}],"headline-sm":["18px",{"lineHeight":"26px","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"22px","fontWeight":"400"}],"headline-lg":["32px",{"lineHeight":"40px","fontWeight":"700"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"600"}],"code-md":["13px",{"lineHeight":"20px","fontWeight":"400"}],"body-sm":["12px",{"lineHeight":"18px","fontWeight":"400"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="sticky top-0 z-50 w-full bg-surface/90 backdrop-blur-md border-b border-border-subtle"><div class="h-16 w-full px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm shrink-0"><div class="px-space-sm py-space-xs rounded bg-surface-container-high border border-border-subtle flex items-center gap-space-xs"><span class="material-symbols-outlined text-primary text-[18px]">terminal</span><span class="font-label-md text-label-md text-primary font-medium tracking-wider uppercase">SYS-DOCS</span></div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-text-primary leading-tight font-semibold tracking-tight">Manual Técnico · Grupo 6</span><span class="font-label-sm text-label-sm text-on-surface-variant font-medium tracking-wide uppercase">Sistemas Operativos</span></div></div><nav class="flex items-center gap-space-xs overflow-x-auto py-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-medium rounded"><a aria-current="page" class="uppercase px-space-sm py-1.5 transition-colors whitespace-nowrap bg-primary-container text-on-primary-container font-medium rounded" data-path="inicio" href="#inicio">Inicio</a><a class="font-label-sm text-label-sm uppercase px-space-sm py-1.5 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors whitespace-nowrap" data-path="introduccion" href="#introduccion">Introducción</a><a class="font-label-sm text-label-sm uppercase px-space-sm py-1.5 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors whitespace-nowrap" data-path="objetivos" href="#objetivos">Objetivos</a><a class="font-label-sm text-label-sm uppercase px-space-sm py-1.5 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors whitespace-nowrap" data-path="fundamentos" href="#fundamentos">Fundamentos</a><a class="font-label-sm text-label-sm uppercase px-space-sm py-1.5 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors whitespace-nowrap" data-path="herramientas" href="#herramientas">Herramientas</a><a class="font-label-sm text-label-sm uppercase px-space-sm py-1.5 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors whitespace-nowrap" data-path="tutorial" href="#tutorial">Tutorial</a><a class="font-label-sm text-label-sm uppercase px-space-sm py-1.5 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors whitespace-nowrap" data-path="laboratorio" href="#laboratorio">Laboratorio</a><a class="font-label-sm text-label-sm uppercase px-space-sm py-1.5 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors whitespace-nowrap" data-path="evidencias" href="#evidencias">Evidencias</a><a class="font-label-sm text-label-sm uppercase px-space-sm py-1.5 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors whitespace-nowrap" data-path="diagnostico" href="#diagnostico">Diagnóstico</a><a class="font-label-sm text-label-sm uppercase px-space-sm py-1.5 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors whitespace-nowrap" data-path="evaluacion" href="#evaluacion">Evaluación</a><a class="font-label-sm text-label-sm uppercase px-space-sm py-1.5 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors whitespace-nowrap" data-path="bibliografia" href="#bibliografia">Bibliografía</a></nav><div class="flex items-center gap-space-md shrink-0"><div class="flex items-center gap-space-xs px-space-sm py-1.5 rounded bg-surface-container-low border border-border-subtle"><span class="relative flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span></span><span class="font-label-sm text-label-sm text-primary tracking-wide">servidor-01 : ONLINE</span></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-4rem)]"><div class="flex flex-col w-full">
+<div class="w-full max-w-7xl mx-auto px-6 md:px-8 py-10 space-y-20">
+<!-- SECCIÓN 1: INICIO (#inicio) -->
+<section class="scroll-mt-24" id="inicio">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+<!-- Columna Izquierda: Presentación y Autores -->
+<div class="lg:col-span-7 flex flex-col justify-between p-8 md:p-10 rounded-xl bg-surface-container-low shadow-xl">
+<div class="space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded bg-surface-container-high w-fit">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Grupo 6: La Marraqueta</span>
+</div>
+<div class="space-y-3">
+<h1 class="text-[40px] leading-[48px] font-bold text-text-primary tracking-tight font-headline-xl">
+                Instalación y Configuración de Servidores
+              </h1>
+<p class="font-headline-sm text-headline-sm text-text-secondary">
+                Guía Técnica y Laboratorio Práctico de Sistemas Operativos
+              </p>
+</div>
+<div class="p-4 rounded-lg bg-surface-container space-y-1">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">badge</span>
+<span class="font-label-sm text-label-sm uppercase text-text-secondary tracking-wider">Integrantes del Proyecto</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface font-semibold">
+                Isaac Palacios &amp; Nicolás Zuleta
+              </p>
+<p class="font-code-md text-code-md text-text-secondary">
+                3.º Medio Programación — Sistemas Operativos (OA 2 / AE 2.1)
+              </p>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-4 pt-8">
+<a class="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-surface-container-lowest font-headline-sm text-headline-sm font-bold shadow-lg hover:shadow-primary/20 hover:scale-[1.02] transition-all" href="#tutorial">
+<span class="material-symbols-outlined text-[20px]">terminal</span>
+<span>Ver Tutorial</span>
+</a>
+<a class="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-surface-container-high text-text-primary font-headline-sm text-headline-sm hover:text-secondary hover:bg-surface-variant transition-all" href="#evidencias">
+<span class="material-symbols-outlined text-[20px]">photo_library</span>
+<span>Explorar Evidencias</span>
+</a>
+</div>
+</div>
+<!-- Columna Derecha: Tarjeta Consola Terminal en Vivo -->
+<div class="lg:col-span-5 flex flex-col rounded-xl bg-surface-container-lowest overflow-hidden shadow-2xl">
+<!-- Terminal Header -->
+<div class="px-4 py-3 bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-status-error/80 inline-block"></span>
+<span class="w-3 h-3 rounded-full bg-status-warning/80 inline-block"></span>
+<span class="w-3 h-3 rounded-full bg-primary/80 inline-block"></span>
+</div>
+<div class="font-label-sm text-label-sm text-text-secondary flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[14px] text-primary">dns</span>
+<span>telemetry://servidor-01.local</span>
+</div>
+<span class="font-label-sm text-label-sm text-outline">pts/0</span>
+</div>
+<!-- Terminal Body -->
+<div class="p-6 font-code-md text-code-md space-y-4 flex-1 flex flex-col justify-between">
+<div class="space-y-3">
+<div class="text-text-secondary">
+<span class="text-primary font-bold">nikotina@servidor-01</span>:<span class="text-secondary">~</span>$ neofetch --stdout
+              </div>
+<div class="p-4 rounded bg-surface-container space-y-2 text-on-surface">
+<div class="flex justify-between items-center pb-2 border-b border-surface-variant/40">
+<span class="text-text-secondary">Hostname:</span>
+<span class="text-primary font-medium">servidor-01</span>
+</div>
+<div class="flex justify-between items-center pb-2 border-b border-surface-variant/40">
+<span class="text-text-secondary">SO:</span>
+<span class="text-text-primary">Ubuntu Server 26.04.1 LTS</span>
+</div>
+<div class="flex justify-between items-center pb-2 border-b border-surface-variant/40">
+<span class="text-text-secondary">IP Address:</span>
+<span class="text-secondary font-medium">192.168.196.150/24</span>
+</div>
+<div class="flex justify-between items-center pb-2 border-b border-surface-variant/40">
+<span class="text-text-secondary">Interfaz:</span>
+<span class="text-text-primary">enp0s3 (Bridged)</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="text-text-secondary">Gateway:</span>
+<span class="text-text-primary">192.168.196.203</span>
+</div>
+</div>
+</div>
+<div class="p-3.5 rounded bg-primary/10 flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<span class="relative flex h-3 w-3">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-3 w-3 bg-primary"></span>
+</span>
+<span class="font-label-sm text-label-sm text-primary font-medium">DAEMONS STATUS</span>
+</div>
+<span class="font-label-sm text-label-sm text-text-primary font-semibold">SSH &amp; Apache2 Activos (100% UP)</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECCIÓN 2: INTRODUCCIÓN (#introduccion) -->
+<section class="scroll-mt-24 space-y-6" id="introduccion">
+<div class="flex items-center gap-3">
+<span class="px-2.5 py-1 rounded bg-secondary/15 text-secondary font-label-md text-label-md font-semibold">#02. INTRODUCCIÓN</span>
+<div class="h-px bg-surface-container-high flex-1"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="p-8 rounded-xl bg-surface-container space-y-4 hover:bg-surface-container-high transition-colors">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">dns</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-text-primary">
+            ¿Qué es la instalación y configuración de servidores?
+          </h2>
+<p class="font-body-lg text-body-lg text-text-secondary leading-relaxed">
+            Es el proceso de despliegue y puesta en marcha de un sistema operativo especializado, diseñado para proveer servicios de red continuos —como alojamiento web (HTTP) y administración remota segura (SSH)— a múltiples equipos clientes de manera simultánea.
+          </p>
+</div>
+<div class="p-8 rounded-xl bg-surface-container space-y-4 hover:bg-surface-container-high transition-colors">
+<div class="w-12 h-12 rounded-lg bg-secondary/10 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[28px]">verified_user</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-text-primary">
+            Importancia para el técnico informático
+          </h2>
+<p class="font-body-lg text-body-lg text-text-secondary leading-relaxed">
+            Dominar esta labor es fundamental porque garantiza la disponibilidad de los servicios críticos, asegura una conectividad estable mediante direccionamiento IP fijo y establece una seguridad perimetral sólida mediante cortafuegos antes de exponer el sistema a la red.
+          </p>
+</div>
+</div>
+</section>
+<!-- SECCIÓN 3: OBJETIVOS (#objetivos) -->
+<section class="scroll-mt-24 space-y-6" id="objetivos">
+<div class="flex items-center gap-3">
+<span class="px-2.5 py-1 rounded bg-primary/15 text-primary font-label-md text-label-md font-semibold">#03. OBJETIVOS DE APRENDIZAJE</span>
+<div class="h-px bg-surface-container-high flex-1"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<div class="p-6 rounded-xl bg-surface-container space-y-3 relative overflow-hidden group hover:bg-surface-container-high transition-all">
+<span class="font-label-md text-label-md text-primary font-bold">OBJ-01</span>
+<h3 class="font-headline-sm text-headline-sm text-text-primary">01. Entorno Virtualizado</h3>
+<p class="font-body-md text-body-md text-text-secondary">
+            Instalar y preparar un servidor Linux en un entorno virtualizado con Oracle VirtualBox en modo Adaptador puente.
+          </p>
+<div class="w-full h-1 bg-surface-variant rounded-full mt-4 overflow-hidden">
+<div class="h-full bg-primary w-full"></div>
+</div>
+</div>
+<div class="p-6 rounded-xl bg-surface-container space-y-3 relative overflow-hidden group hover:bg-surface-container-high transition-all">
+<span class="font-label-md text-label-md text-secondary font-bold">OBJ-02</span>
+<h3 class="font-headline-sm text-headline-sm text-text-primary">02. IP Estática con Netplan</h3>
+<p class="font-body-md text-body-md text-text-secondary">
+            Configurar direccionamiento IP estático permanente mediante archivos YAML estructurados en Netplan.
+          </p>
+<div class="w-full h-1 bg-surface-variant rounded-full mt-4 overflow-hidden">
+<div class="h-full bg-secondary w-full"></div>
+</div>
+</div>
+<div class="p-6 rounded-xl bg-surface-container space-y-3 relative overflow-hidden group hover:bg-surface-container-high transition-all">
+<span class="font-label-md text-label-md text-primary font-bold">OBJ-03</span>
+<h3 class="font-headline-sm text-headline-sm text-text-primary">03. Servicios de Red</h3>
+<p class="font-body-md text-body-md text-text-secondary">
+            Desplegar y verificar servicios esenciales de red: OpenSSH para control remoto y servidor web Apache2.
+          </p>
+<div class="w-full h-1 bg-surface-variant rounded-full mt-4 overflow-hidden">
+<div class="h-full bg-primary w-full"></div>
+</div>
+</div>
+<div class="p-6 rounded-xl bg-surface-container space-y-3 relative overflow-hidden group hover:bg-surface-container-high transition-all">
+<span class="font-label-md text-label-md text-secondary font-bold">OBJ-04</span>
+<h3 class="font-headline-sm text-headline-sm text-text-primary">04. Seguridad y Diagnóstico</h3>
+<p class="font-body-md text-body-md text-text-secondary">
+            Proteger el servidor mediante cortafuegos UFW y diagnosticar conectividad de extremo a extremo desde el cliente Windows.
+          </p>
+<div class="w-full h-1 bg-surface-variant rounded-full mt-4 overflow-hidden">
+<div class="h-full bg-secondary w-full"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECCIÓN 4: FUNDAMENTOS TÉCNICOS (#fundamentos) -->
+<section class="scroll-mt-24 space-y-6" id="fundamentos">
+<div class="flex items-center gap-3">
+<span class="px-2.5 py-1 rounded bg-secondary/15 text-secondary font-label-md text-label-md font-semibold">#04. FUNDAMENTOS TÉCNICOS</span>
+<div class="h-px bg-surface-container-high flex-1"></div>
+</div>
+<!-- Fila Superior: 3 Columnas -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+<div class="p-6 rounded-xl bg-surface-container space-y-3">
+<div class="flex items-center gap-2 text-primary font-label-md text-label-md font-semibold">
+<span class="material-symbols-outlined text-[20px]">hub</span>
+<span>MODELO CLIENTE-SERVIDOR</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-text-primary">Arquitectura Cliente-Servidor</h3>
+<p class="font-body-md text-body-md text-text-secondary leading-relaxed">
+            Modelo de comunicación donde el servidor (<span class="text-primary font-mono font-medium">servidor-01</span>) centraliza recursos y escucha peticiones entrantes, mientras los clientes (como Windows) envían solicitudes y reciben respuestas procesadas.
+          </p>
+</div>
+<div class="p-6 rounded-xl bg-surface-container space-y-3">
+<div class="flex items-center gap-2 text-secondary font-label-md text-label-md font-semibold">
+<span class="material-symbols-outlined text-[20px]">terminal</span>
+<span>EFICIENCIA DE RECURSOS</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-text-primary">Servidor sin Interfaz Gráfica (CLI)</h3>
+<p class="font-body-md text-body-md text-text-secondary leading-relaxed">
+            Operar exclusivamente mediante línea de comandos reduce drásticamente el consumo de memoria RAM y CPU, minimiza la superficie de ataque y permite una administración precisa y automatizable.
+          </p>
+</div>
+<div class="p-6 rounded-xl bg-surface-container space-y-3">
+<div class="flex items-center gap-2 text-primary font-label-md text-label-md font-semibold">
+<span class="material-symbols-outlined text-[20px]">lan</span>
+<span>DIRECCIONAMIENTO PERSISTENTE</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-text-primary">IP Estática vs. DHCP</h3>
+<p class="font-body-md text-body-md text-text-secondary leading-relaxed">
+            Mientras DHCP asigna direcciones temporales que pueden cambiar tras un reinicio, una IP estática garantiza que el servidor sea siempre localizable en la misma dirección (<span class="text-secondary font-mono font-medium">192.168.196.150</span>).
+          </p>
+</div>
+</div>
+<!-- Fila Inferior: 2 Columnas -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="p-6 rounded-xl bg-surface-container space-y-3">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-primary/20 text-primary font-label-sm text-label-sm font-semibold">PUERTO 22 / TCP</span>
+<span class="material-symbols-outlined text-text-secondary text-[20px]">lock</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-text-primary">Protocolo SSH (Puerto 22)</h3>
+<p class="font-body-md text-body-md text-text-secondary leading-relaxed">
+            Secure Shell cifra toda la comunicación de terminal para administrar el servidor de forma remota sin exponer credenciales en texto plano a través de la infraestructura local.
+          </p>
+</div>
+<div class="p-6 rounded-xl bg-surface-container space-y-3">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-secondary/20 text-secondary font-label-sm text-label-sm font-semibold">PUERTO 80 / TCP</span>
+<span class="material-symbols-outlined text-text-secondary text-[20px]">language</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-text-primary">Protocolo HTTP (Puerto 80)</h3>
+<p class="font-body-md text-body-md text-text-secondary leading-relaxed">
+            Hypertext Transfer Protocol permite entregar páginas y recursos web desde Apache2 hacia los navegadores de los clientes conectados al segmento de red.
+          </p>
+</div>
+</div>
+</section>
+<!-- SECCIÓN 5: HERRAMIENTAS Y COMANDOS (#herramientas) -->
+<section class="scroll-mt-24 space-y-6" id="herramientas">
+<div class="flex items-center gap-3">
+<span class="px-2.5 py-1 rounded bg-primary/15 text-primary font-label-md text-label-md font-semibold">#05. STACK Y HERRAMIENTAS</span>
+<div class="h-px bg-surface-container-high flex-1"></div>
+</div>
+<div class="overflow-x-auto rounded-xl bg-surface-container shadow-xl">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container-high text-on-surface-variant font-label-md text-label-md uppercase tracking-wider">
+<th class="py-4 px-6">Herramienta / Tecnología</th>
+<th class="py-4 px-6">Tipo</th>
+<th class="py-4 px-6">Descripción</th>
+<th class="py-4 px-6">Comando Clave Asociado</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-variant/30 font-body-md text-body-md text-on-surface">
+<tr class="hover:bg-surface-container-high/50 transition-colors">
+<td class="py-4 px-6 font-semibold text-text-primary flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">devices</span>
+<span>Oracle VirtualBox</span>
+</td>
+<td class="py-4 px-6 font-code-md text-code-md text-secondary">Hipervisor</td>
+<td class="py-4 px-6 text-text-secondary">Hipervisor utilizado para virtualizar el servidor en modo Adaptador puente.</td>
+<td class="py-4 px-6 font-code-md text-code-md text-primary">Adaptador puente (Realtek RTL8822CE)</td>
+</tr>
+<tr class="hover:bg-surface-container-high/50 transition-colors">
+<td class="py-4 px-6 font-semibold text-text-primary flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">terminal</span>
+<span>Ubuntu Server 26.04.1 LTS</span>
+</td>
+<td class="py-4 px-6 font-code-md text-code-md text-secondary">Sistema Operativo</td>
+<td class="py-4 px-6 text-text-secondary">Distribución de servidor sin interfaz gráfica (CLI).</td>
+<td class="py-4 px-6 font-code-md text-code-md text-primary"><code>uname -r</code>, <code>cat /etc/os-release</code></td>
+</tr>
+<tr class="hover:bg-surface-container-high/50 transition-colors">
+<td class="py-4 px-6 font-semibold text-text-primary flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">alt_route</span>
+<span>Netplan</span>
+</td>
+<td class="py-4 px-6 font-code-md text-code-md text-secondary">Gestor de Red</td>
+<td class="py-4 px-6 text-text-secondary">Gestor de configuración de red mediante sintaxis YAML.</td>
+<td class="py-4 px-6 font-code-md text-code-md text-primary"><code>sudo netplan apply</code></td>
+</tr>
+<tr class="hover:bg-surface-container-high/50 transition-colors">
+<td class="py-4 px-6 font-semibold text-text-primary flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">key</span>
+<span>OpenSSH (<code>ssh.service</code>)</span>
+</td>
+<td class="py-4 px-6 font-code-md text-code-md text-secondary">Servicio Remoto</td>
+<td class="py-4 px-6 text-text-secondary">Protocolo y demonio de acceso remoto seguro cifrado.</td>
+<td class="py-4 px-6 font-code-md text-code-md text-primary"><code>systemctl status ssh</code>, <code>ssh nikotina@192.168.196.150</code></td>
+</tr>
+<tr class="hover:bg-surface-container-high/50 transition-colors">
+<td class="py-4 px-6 font-semibold text-text-primary flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">public</span>
+<span>Apache2 (<code>apache2.service</code>)</span>
+</td>
+<td class="py-4 px-6 font-code-md text-code-md text-secondary">Servidor Web</td>
+<td class="py-4 px-6 text-text-secondary">Servidor HTTP de código abierto para distribución web.</td>
+<td class="py-4 px-6 font-code-md text-code-md text-primary"><code>systemctl status apache2</code>, <code>http://192.168.196.150</code></td>
+</tr>
+<tr class="hover:bg-surface-container-high/50 transition-colors">
+<td class="py-4 px-6 font-semibold text-text-primary flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">security</span>
+<span>UFW (<code>ufw</code>)</span>
+</td>
+<td class="py-4 px-6 font-code-md text-code-md text-secondary">Cortafuegos</td>
+<td class="py-4 px-6 text-text-secondary">Uncomplicated Firewall para filtrado y protección perimetral.</td>
+<td class="py-4 px-6 font-code-md text-code-md text-primary"><code>sudo ufw allow OpenSSH</code>, <code>sudo ufw enable</code></td>
+</tr>
+<tr class="hover:bg-surface-container-high/50 transition-colors">
+<td class="py-4 px-6 font-semibold text-text-primary flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">troubleshoot</span>
+<span>Diagnóstico y Red</span>
+</td>
+<td class="py-4 px-6 font-code-md text-code-md text-secondary">Utilidades CLI</td>
+<td class="py-4 px-6 text-text-secondary">Comandos de inspección y validación de conectividad.</td>
+<td class="py-4 px-6 font-code-md text-code-md text-primary"><code>ip a</code>, <code>ip route show default</code>, <code>ping 192.168.196.150</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<!-- SECCIÓN 6: TUTORIAL PASO A PASO (#tutorial) -->
+<section class="scroll-mt-24 space-y-6" id="tutorial">
+<div class="flex items-center gap-3">
+<span class="px-2.5 py-1 rounded bg-secondary/15 text-secondary font-label-md text-label-md font-semibold">#06. PROCEDIMIENTO PASO A PASO</span>
+<div class="h-px bg-surface-container-high flex-1"></div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
+<!-- Paso 1 -->
+<div class="p-6 rounded-xl bg-surface-container space-y-4">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded bg-primary/20 text-primary font-label-md text-label-md font-bold">PASO 01</span>
+<span class="font-label-sm text-label-sm text-text-secondary">VirtualBox Setup</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-text-primary">Red en VirtualBox</h3>
+<p class="font-body-md text-body-md text-text-secondary">
+            Configura el adaptador de red de la máquina virtual en modo “Adaptador puente” para integrarla directamente a la red local y permitir comunicación directa con Windows.
+          </p>
+<div class="p-4 rounded-lg bg-surface-container-lowest font-code-md text-code-md text-secondary">
+            Ajustes de VM → Red → Conectado a: Adaptador puente (Realtek RTL8822CE)
+          </div>
+</div>
+<!-- Paso 2 -->
+<div class="p-6 rounded-xl bg-surface-container space-y-4">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded bg-primary/20 text-primary font-label-md text-label-md font-bold">PASO 02</span>
+<span class="font-label-sm text-label-sm text-text-secondary">OS Deployment</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-text-primary">Instalación e Inicio de Sesión</h3>
+<p class="font-body-md text-body-md text-text-secondary">
+            Instala Ubuntu Server 26.04.1 LTS con OpenSSH habilitado e inicia sesión en consola interactiva como <code class="text-primary font-mono">nikotina@servidor-01</code>.
+          </p>
+<div class="p-4 rounded-lg bg-surface-container-lowest font-code-md text-code-md text-on-surface">
+            Ubuntu Server 26.04.1 LTS servidor-01 tty1<br/>
+            servidor-01 login: <span class="text-primary">nikotina</span>
+</div>
+</div>
+<!-- Paso 3 -->
+<div class="p-6 rounded-xl bg-surface-container space-y-4">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded bg-primary/20 text-primary font-label-md text-label-md font-bold">PASO 03</span>
+<span class="font-label-sm text-label-sm text-text-secondary">Network Inspect</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-text-primary">Identificar Interfaz y Gateway</h3>
+<p class="font-body-md text-body-md text-text-secondary">
+            Verifica la interfaz de red (<code class="text-primary font-mono">enp0s3</code>) y la puerta de enlace predeterminada (<code class="text-secondary font-mono">192.168.196.203</code>).
+          </p>
+<div class="rounded-lg bg-surface-container-lowest overflow-hidden">
+<div class="flex items-center justify-between px-3 py-1.5 bg-surface-container-high">
+<span class="font-label-sm text-label-sm text-text-secondary font-mono">bash</span>
+<button class="font-label-sm text-label-sm text-text-secondary hover:text-primary transition-colors flex items-center gap-1" onclick="copyCode(this)">
+<span class="material-symbols-outlined text-[14px]">content_copy</span><span>Copiar</span>
+</button>
+</div>
+<pre class="p-4 font-code-md text-code-md text-primary overflow-x-auto"><code>ip a
+ip route show default</code></pre>
+</div>
+</div>
+<!-- Paso 4 -->
+<div class="p-6 rounded-xl bg-surface-container space-y-4">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded bg-primary/20 text-primary font-label-md text-label-md font-bold">PASO 04</span>
+<span class="font-label-sm text-label-sm text-text-secondary">YAML Configuration</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-text-primary">Configurar IP Estática en Netplan</h3>
+<p class="font-body-md text-body-md text-text-secondary">
+            Edita <code class="text-secondary font-mono">/etc/netplan/00-installer-config.yaml</code> con <code class="text-primary font-mono">sudo nano</code> y aplica los cambios con <code class="text-primary font-mono">sudo netplan apply</code>:
+          </p>
+<div class="rounded-lg bg-surface-container-lowest overflow-hidden">
+<div class="flex items-center justify-between px-3 py-1.5 bg-surface-container-high">
+<span class="font-label-sm text-label-sm text-text-secondary font-mono">/etc/netplan/00-installer-config.yaml</span>
+<button class="font-label-sm text-label-sm text-text-secondary hover:text-primary transition-colors flex items-center gap-1" onclick="copyCode(this)">
+<span class="material-symbols-outlined text-[14px]">content_copy</span><span>Copiar</span>
+</button>
+</div>
+<pre class="p-4 font-code-md text-code-md text-on-surface overflow-x-auto"><code><span class="text-secondary">network:</span>
+  <span class="text-secondary">version:</span> 2
+  <span class="text-secondary">ethernets:</span>
+    <span class="text-secondary">enp0s3:</span>
+      <span class="text-secondary">dhcp4:</span> false
+      <span class="text-secondary">addresses:</span>
+        - <span class="text-primary">192.168.196.150/24</span>
+      <span class="text-secondary">routes:</span>
+        - <span class="text-secondary">to:</span> default
+          <span class="text-secondary">via:</span> <span class="text-primary">192.168.196.203</span>
+      <span class="text-secondary">nameservers:</span>
+        <span class="text-secondary">addresses:</span> [<span class="text-secondary">8.8.8.8</span>, <span class="text-secondary">1.1.1.1</span>]</code></pre>
+</div>
+</div>
+<!-- Paso 5 -->
+<div class="p-6 rounded-xl bg-surface-container space-y-4">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded bg-primary/20 text-primary font-label-md text-label-md font-bold">PASO 05</span>
+<span class="font-label-sm text-label-sm text-text-secondary">Web Server</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-text-primary">Instalar Apache2</h3>
+<p class="font-body-md text-body-md text-text-secondary">
+            Actualiza los índices de repositorios del sistema e instala el servidor web Apache2 en segundo plano.
+          </p>
+<div class="rounded-lg bg-surface-container-lowest overflow-hidden">
+<div class="flex items-center justify-between px-3 py-1.5 bg-surface-container-high">
+<span class="font-label-sm text-label-sm text-text-secondary font-mono">bash</span>
+<button class="font-label-sm text-label-sm text-text-secondary hover:text-primary transition-colors flex items-center gap-1" onclick="copyCode(this)">
+<span class="material-symbols-outlined text-[14px]">content_copy</span><span>Copiar</span>
+</button>
+</div>
+<pre class="p-4 font-code-md text-code-md text-primary overflow-x-auto"><code>sudo apt update &amp;&amp; sudo apt install apache2 -y</code></pre>
+</div>
+</div>
+<!-- Paso 6 -->
+<div class="p-6 rounded-xl bg-surface-container space-y-4">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded bg-primary/20 text-primary font-label-md text-label-md font-bold">PASO 06</span>
+<span class="font-label-sm text-label-sm text-text-secondary">UFW Firewall</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-text-primary">Configurar Firewall UFW</h3>
+<p class="font-body-md text-body-md text-text-secondary">
+            Permite explícitamente el tráfico de OpenSSH y HTTP (puerto 80 TCP) antes de activar el cortafuegos.
+          </p>
+<div class="rounded-lg bg-surface-container-lowest overflow-hidden">
+<div class="flex items-center justify-between px-3 py-1.5 bg-surface-container-high">
+<span class="font-label-sm text-label-sm text-text-secondary font-mono">bash</span>
+<button class="font-label-sm text-label-sm text-text-secondary hover:text-primary transition-colors flex items-center gap-1" onclick="copyCode(this)">
+<span class="material-symbols-outlined text-[14px]">content_copy</span><span>Copiar</span>
+</button>
+</div>
+<pre class="p-4 font-code-md text-code-md text-primary overflow-x-auto"><code>sudo ufw allow OpenSSH
+sudo ufw allow 80/tcp
+sudo ufw enable
+sudo ufw status</code></pre>
+</div>
+</div>
+<!-- Paso 7 (Full width spanning 2 columns) -->
+<div class="lg:col-span-2 p-6 rounded-xl bg-surface-container space-y-4">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded bg-secondary/20 text-secondary font-label-md text-label-md font-bold">PASO 07</span>
+<span class="font-label-sm text-label-sm text-text-secondary">Client-Side Verification</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-text-primary">Verificar Servicios y Probar desde Cliente</h3>
+<p class="font-body-md text-body-md text-text-secondary">
+            Comprueba ambos servicios en el servidor y realiza pruebas de conectividad desde Windows (PowerShell y navegador web en <code class="text-primary font-mono">http://192.168.196.150</code>):
+          </p>
+<div class="rounded-lg bg-surface-container-lowest overflow-hidden">
+<div class="flex items-center justify-between px-3 py-1.5 bg-surface-container-high">
+<span class="font-label-sm text-label-sm text-text-secondary font-mono">PowerShell / Linux Terminal</span>
+<button class="font-label-sm text-label-sm text-text-secondary hover:text-primary transition-colors flex items-center gap-1" onclick="copyCode(this)">
+<span class="material-symbols-outlined text-[14px]">content_copy</span><span>Copiar</span>
+</button>
+</div>
+<pre class="p-4 font-code-md text-code-md text-primary overflow-x-auto"><code>systemctl status ssh apache2 --no-pager
+ping 192.168.196.150
+ssh nikotina@192.168.196.150</code></pre>
+</div>
+</div>
+</div>
+</section>
+<!-- SECCIÓN 7: FICHA DE LABORATORIO (#laboratorio) -->
+<section class="scroll-mt-24 space-y-6" id="laboratorio">
+<div class="flex items-center gap-3">
+<span class="px-2.5 py-1 rounded bg-primary/15 text-primary font-label-md text-label-md font-semibold">#07. PARÁMETROS DEL LABORATORIO</span>
+<div class="h-px bg-surface-container-high flex-1"></div>
+</div>
+<!-- Cuadrícula 4 Columnas Superior -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<div class="p-6 rounded-xl bg-surface-container space-y-2">
+<span class="font-label-sm text-label-sm uppercase text-text-secondary">Servidor / Host</span>
+<div class="font-code-lg text-code-lg font-bold text-primary">servidor-01</div>
+<p class="font-body-sm text-body-sm text-text-secondary">Ubuntu Server 26.04.1 LTS</p>
+</div>
+<div class="p-6 rounded-xl bg-surface-container space-y-2">
+<span class="font-label-sm text-label-sm uppercase text-text-secondary">Usuario Administrador</span>
+<div class="font-code-lg text-code-lg font-bold text-secondary">nikotina</div>
+<p class="font-body-sm text-body-sm text-text-secondary">Privilegios sudoers activos</p>
+</div>
+<div class="p-6 rounded-xl bg-surface-container space-y-2">
+<span class="font-label-sm text-label-sm uppercase text-text-secondary">Dirección IP Estática</span>
+<div class="font-code-lg text-code-lg font-bold text-primary">192.168.196.150/24</div>
+<p class="font-body-sm text-body-sm text-text-secondary">Subred clase C privada</p>
+</div>
+<div class="p-6 rounded-xl bg-surface-container space-y-2">
+<span class="font-label-sm text-label-sm uppercase text-text-secondary">Gateway Predeterminado</span>
+<div class="font-code-lg text-code-lg font-bold text-secondary">192.168.196.203</div>
+<p class="font-body-sm text-body-sm text-text-secondary">Enrutador de laboratorio</p>
+</div>
+</div>
+<!-- Fila Inferior 2 Columnas -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="p-6 rounded-xl bg-surface-container space-y-3">
+<div class="flex items-center gap-2 text-secondary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[20px]">router</span>
+<span class="font-bold">INTERFAZ DE RED</span>
+</div>
+<div class="font-code-md text-code-md text-text-primary">
+            Interfaz virtual: <span class="text-primary font-bold">enp0s3</span>
+</div>
+<p class="font-body-md text-body-md text-text-secondary">
+            Configurada en VirtualBox bajo modo <strong>Adaptador puente</strong> sobre la tarjeta física <strong>Realtek RTL8822CE 802.11ac PCIe Adapter</strong>.
+          </p>
+</div>
+<div class="p-6 rounded-xl bg-surface-container space-y-3">
+<div class="flex items-center gap-2 text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[20px]">check_circle</span>
+<span class="font-bold">RESULTADO DEL LABORATORIO</span>
+</div>
+<div class="font-code-md text-code-md text-text-primary">
+            Estado global: <span class="text-primary font-bold">EXITOSO (0% Packet Loss)</span>
+</div>
+<p class="font-body-md text-body-md text-text-secondary">
+            Conectividad 100% estable, acceso remoto SSH activo y servidor web Apache2 respondiendo satisfactoriamente la página por defecto “It works!”.
+          </p>
+</div>
+</div>
+</section>
+<!-- SECCIÓN 8: EVIDENCIAS TÉCNICAS (#evidencias) -->
+<section class="scroll-mt-24 space-y-6" id="evidencias">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-3">
+<span class="px-2.5 py-1 rounded bg-secondary/15 text-secondary font-label-md text-label-md font-semibold">#08. EVIDENCIAS TÉCNICAS</span>
+<span class="font-label-sm text-label-sm text-text-secondary hidden sm:inline">(13 Capturas de pantalla validadas)</span>
+</div>
+<div class="h-px bg-surface-container-high flex-1 ml-4"></div>
+</div>
+<!-- Galería en Cuadrícula 3 Columnas Exacta -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Evidencia 01 -->
+<div class="rounded-xl bg-surface-container overflow-hidden flex flex-col group hover:bg-surface-container-high transition-all shadow-md">
+<div class="p-3 bg-surface-container-high flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-primary/20 text-primary font-label-sm text-label-sm font-bold">EVIDENCIA 01 · cap1.png</span>
+<span class="material-symbols-outlined text-text-secondary text-[16px]">image</span>
+</div>
+<div class="relative overflow-hidden bg-surface-container-lowest cursor-pointer" onclick="openModal('https://lh3.googleusercontent.com/aida-public/AB6AXuBAjc5HruFiedYHlztr8o9hFGEpjwSSDd3CLmr6wCK3alFH2jddtzmkdNNW3gK7cCbli7pnHn1X-yOKywmM0rIfQFlOpHP7gyqexTl9DnTWtD82ROFb4hLTcMZ3vzLwKJ8NiesT7Ne4tliP0mQ0JUZ4q8CP6vPGSMB9wn5sSjlhaC9mJ70XCam7L3VNxww4LADggs06ZwgYGf7qs-51XHBAZq27YwChUqU8QrbcpKk6vdefKS69Zp_-Gw', 'Evidencia 01: Inicio de sesión inicial con DHCP 10.0.2.15')">
+<img alt="Evidencia 01 - cap1.png" class="w-full h-52 object-cover object-top group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAjc5HruFiedYHlztr8o9hFGEpjwSSDd3CLmr6wCK3alFH2jddtzmkdNNW3gK7cCbli7pnHn1X-yOKywmM0rIfQFlOpHP7gyqexTl9DnTWtD82ROFb4hLTcMZ3vzLwKJ8NiesT7Ne4tliP0mQ0JUZ4q8CP6vPGSMB9wn5sSjlhaC9mJ70XCam7L3VNxww4LADggs06ZwgYGf7qs-51XHBAZq27YwChUqU8QrbcpKk6vdefKS69Zp_-Gw"/>
+<div class="absolute inset-0 bg-surface/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="p-2 rounded-full bg-surface-container-high text-primary material-symbols-outlined">zoom_in</span>
+</div>
+</div>
+<div class="p-4 flex-1">
+<p class="font-body-sm text-body-sm text-text-secondary leading-relaxed">
+              Inicio de sesión inicial en <code class="text-primary font-mono">servidor-01</code> con IP DHCP <code class="text-secondary font-mono">10.0.2.15</code> en la interfaz <code class="text-on-surface font-mono">enp0s3</code>.
+            </p>
+</div>
+</div>
+<!-- Evidencia 02 -->
+<div class="rounded-xl bg-surface-container overflow-hidden flex flex-col group hover:bg-surface-container-high transition-all shadow-md">
+<div class="p-3 bg-surface-container-high flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-primary/20 text-primary font-label-sm text-label-sm font-bold">EVIDENCIA 02 · cap11.jpg</span>
+<span class="material-symbols-outlined text-text-secondary text-[16px]">image</span>
+</div>
+<div class="relative overflow-hidden bg-surface-container-lowest cursor-pointer" onclick="openModal('https://lh3.googleusercontent.com/aida-public/AB6AXuACJoi1jYA2rNpheG5FVqSAa6HYXMkWS_8rL4XpmKdBCJZ6CBFhhAPRs2Fn-sYoKrl5TYrXZ42_am7iECXyB1xclFtzWoGDgvxBC7RBfVhP3qLVCJ6PgRIo608502V7iDhMr6K7yQ6I0q2Qo6Ijd6-JpDMikKV1-MZ14PVbvtulaJOSQXTr4GeQ-VDjuyQO0W6rR1qzi0RFw3Z24EWvq2psdH1w77b6S5Zu_r6NuHcndA3srqMKLz3xRw', 'Evidencia 02: Configuración de VirtualBox en modo Adaptador puente')">
+<img alt="Evidencia 02 - cap11.jpg" class="w-full h-52 object-cover object-top group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuACJoi1jYA2rNpheG5FVqSAa6HYXMkWS_8rL4XpmKdBCJZ6CBFhhAPRs2Fn-sYoKrl5TYrXZ42_am7iECXyB1xclFtzWoGDgvxBC7RBfVhP3qLVCJ6PgRIo608502V7iDhMr6K7yQ6I0q2Qo6Ijd6-JpDMikKV1-MZ14PVbvtulaJOSQXTr4GeQ-VDjuyQO0W6rR1qzi0RFw3Z24EWvq2psdH1w77b6S5Zu_r6NuHcndA3srqMKLz3xRw"/>
+<div class="absolute inset-0 bg-surface/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="p-2 rounded-full bg-surface-container-high text-primary material-symbols-outlined">zoom_in</span>
+</div>
+</div>
+<div class="p-4 flex-1">
+<p class="font-body-sm text-body-sm text-text-secondary leading-relaxed">
+              Configuración de VirtualBox en modo Adaptador puente vinculado al controlador inalámbrico Realtek.
+            </p>
+</div>
+</div>
+<!-- Evidencia 03 -->
+<div class="rounded-xl bg-surface-container overflow-hidden flex flex-col group hover:bg-surface-container-high transition-all shadow-md">
+<div class="p-3 bg-surface-container-high flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-status-error/20 text-status-error font-label-sm text-label-sm font-bold">EVIDENCIA 03 · cap2.png</span>
+<span class="material-symbols-outlined text-text-secondary text-[16px]">image</span>
+</div>
+<div class="relative overflow-hidden bg-surface-container-lowest cursor-pointer" onclick="openModal('https://lh3.googleusercontent.com/aida-public/AB6AXuDvSycjQBNSQWgZggAxKbgs_x25XrvcL4-aJUlrN7p0dNEdB_g5zgH6fZRXZZzSexZgjtsf8nEo39fuWO0Vy5apPJR7nHpsJJnhjOY3HJTkr_cIEjb7ROLNyb67RQkgkNzecwt0pHa_H6AfYsCp5d3_DjnS7t3m372EKnzs5CsGqI3BU7CzXSYOmQEySEU0KU3lzbcNJAWicw7DGBwbziMzbR8_4PGr5EYUbAb2Bqh7y9zfyiHOE04Yuw', 'Evidencia 03: Error dhclient command not found')">
+<img alt="Evidencia 03 - cap2.png" class="w-full h-52 object-cover object-top group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvSycjQBNSQWgZggAxKbgs_x25XrvcL4-aJUlrN7p0dNEdB_g5zgH6fZRXZZzSexZgjtsf8nEo39fuWO0Vy5apPJR7nHpsJJnhjOY3HJTkr_cIEjb7ROLNyb67RQkgkNzecwt0pHa_H6AfYsCp5d3_DjnS7t3m372EKnzs5CsGqI3BU7CzXSYOmQEySEU0KU3lzbcNJAWicw7DGBwbziMzbR8_4PGr5EYUbAb2Bqh7y9zfyiHOE04Yuw"/>
+<div class="absolute inset-0 bg-surface/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="p-2 rounded-full bg-surface-container-high text-primary material-symbols-outlined">zoom_in</span>
+</div>
+</div>
+<div class="p-4 flex-1">
+<p class="font-body-sm text-body-sm text-text-secondary leading-relaxed">
+              Error <code class="text-status-error font-mono">sudo: 'dhclient': command not found</code> al intentar renovar IP manualmente.
+            </p>
+</div>
+</div>
+<!-- Evidencia 04 -->
+<div class="rounded-xl bg-surface-container overflow-hidden flex flex-col group hover:bg-surface-container-high transition-all shadow-md">
+<div class="p-3 bg-surface-container-high flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-primary/20 text-primary font-label-sm text-label-sm font-bold">EVIDENCIA 04 · cap3.png</span>
+<span class="material-symbols-outlined text-text-secondary text-[16px]">image</span>
+</div>
+<div class="relative overflow-hidden bg-surface-container-lowest cursor-pointer" onclick="openModal('https://lh3.googleusercontent.com/aida-public/AB6AXuAwCPTic2efkzFMvMDE0IOZ-tRFKwjDILWcBx5v7cMCiauQhmgP3u8KJ8hkgHguZl2AGLt-wPErEc_txs1cbcbyk9yUuLXjnLO4HKr5DS0UFBAZ1m05kzCuD_Kk_uwe3-5Yk6LFHtzmCjpA8kycCv2O1MNBa1Io1CBBeE881WsC0SLQ1DuZxqA9LJ-G94Z6DoJ5MYDt2yj-aUsidkE8KxRv87D4oI7vorVhBRLPeS63a1s6wZIEpVLqZQ', 'Evidencia 04: Verificación con ip a e ip route')">
+<img alt="Evidencia 04 - cap3.png" class="w-full h-52 object-cover object-top group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwCPTic2efkzFMvMDE0IOZ-tRFKwjDILWcBx5v7cMCiauQhmgP3u8KJ8hkgHguZl2AGLt-wPErEc_txs1cbcbyk9yUuLXjnLO4HKr5DS0UFBAZ1m05kzCuD_Kk_uwe3-5Yk6LFHtzmCjpA8kycCv2O1MNBa1Io1CBBeE881WsC0SLQ1DuZxqA9LJ-G94Z6DoJ5MYDt2yj-aUsidkE8KxRv87D4oI7vorVhBRLPeS63a1s6wZIEpVLqZQ"/>
+<div class="absolute inset-0 bg-surface/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="p-2 rounded-full bg-surface-container-high text-primary material-symbols-outlined">zoom_in</span>
+</div>
+</div>
+<div class="p-4 flex-1">
+<p class="font-body-sm text-body-sm text-text-secondary leading-relaxed">
+              Verificación con <code class="text-primary font-mono">ip a</code> (192.168.196.87/24) e <code class="text-secondary font-mono">ip route show default</code> (gateway 192.168.196.203).
+            </p>
+</div>
+</div>
+<!-- Evidencia 05 -->
+<div class="rounded-xl bg-surface-container overflow-hidden flex flex-col group hover:bg-surface-container-high transition-all shadow-md">
+<div class="p-3 bg-surface-container-high flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-primary/20 text-primary font-label-sm text-label-sm font-bold">EVIDENCIA 05 · cap4.png</span>
+<span class="material-symbols-outlined text-text-secondary text-[16px]">image</span>
+</div>
+<div class="relative overflow-hidden bg-surface-container-lowest cursor-pointer" onclick="openModal('https://lh3.googleusercontent.com/aida-public/AB6AXuBWR50h40zxh_hrbGVUHbXVgSn9z4oucYYR0XfnJjjFHFHVlbbyCX-a7khETnKSGskCG9bogzRRcfp9H1pwtphRjRhx5h_tSJ-eYIRf9De6RFAsz7dfjYmtMrit0O0a3rzNkkGkb6MARj8HIVrs6B9Qk9QSpKqtERW1bH8B0nRVcvihbZmU7AMEgQmTSW0pdLAgtObrGfvYz190M3D7MGMU0IDIjsWpl4CwxzvcM98QH28XLtExU8mSaA', 'Evidencia 05: Exploración de Netplan y edición')">
+<img alt="Evidencia 05 - cap4.png" class="w-full h-52 object-cover object-top group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWR50h40zxh_hrbGVUHbXVgSn9z4oucYYR0XfnJjjFHFHVlbbyCX-a7khETnKSGskCG9bogzRRcfp9H1pwtphRjRhx5h_tSJ-eYIRf9De6RFAsz7dfjYmtMrit0O0a3rzNkkGkb6MARj8HIVrs6B9Qk9QSpKqtERW1bH8B0nRVcvihbZmU7AMEgQmTSW0pdLAgtObrGfvYz190M3D7MGMU0IDIjsWpl4CwxzvcM98QH28XLtExU8mSaA"/>
+<div class="absolute inset-0 bg-surface/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="p-2 rounded-full bg-surface-container-high text-primary material-symbols-outlined">zoom_in</span>
+</div>
+</div>
+<div class="p-4 flex-1">
+<p class="font-body-sm text-body-sm text-text-secondary leading-relaxed">
+              Listado de <code class="text-secondary font-mono">/etc/netplan/00-installer-config.yaml</code> y preparación de edición con <code class="text-primary font-mono">sudo nano</code>.
+            </p>
+</div>
+</div>
+<!-- Evidencia 06 -->
+<div class="rounded-xl bg-surface-container overflow-hidden flex flex-col group hover:bg-surface-container-high transition-all shadow-md">
+<div class="p-3 bg-surface-container-high flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-primary/20 text-primary font-label-sm text-label-sm font-bold">EVIDENCIA 06 · cap5.png</span>
+<span class="material-symbols-outlined text-text-secondary text-[16px]">image</span>
+</div>
+<div class="relative overflow-hidden bg-surface-container-lowest cursor-pointer" onclick="openModal('https://lh3.googleusercontent.com/aida-public/AB6AXuAz60Sf9_qODa9XQiCtEJJA5-H_gUIiUioAgYor2xS9TMlEelPjLK0fkVNIGFQWRW5GOYhxcsVnszAS07OE_Ax9HtYN7dlC_IUKflhFuLRm5Alxlg7UX25e9i9yCIcB7xGbDpS7ugA1H-5e3aCFDh7HDk1dViauzVm2vGZlAL1H2TGAPzn-hTY4Ua9a-rlYd8zhjHMIXQnZS48bx6N7_LZHHIFnTTerKQNv-cOh41z783KdVjPH-B3e0w', 'Evidencia 06: Edición YAML en GNU nano')">
+<img alt="Evidencia 06 - cap5.png" class="w-full h-52 object-cover object-top group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAz60Sf9_qODa9XQiCtEJJA5-H_gUIiUioAgYor2xS9TMlEelPjLK0fkVNIGFQWRW5GOYhxcsVnszAS07OE_Ax9HtYN7dlC_IUKflhFuLRm5Alxlg7UX25e9i9yCIcB7xGbDpS7ugA1H-5e3aCFDh7HDk1dViauzVm2vGZlAL1H2TGAPzn-hTY4Ua9a-rlYd8zhjHMIXQnZS48bx6N7_LZHHIFnTTerKQNv-cOh41z783KdVjPH-B3e0w"/>
+<div class="absolute inset-0 bg-surface/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="p-2 rounded-full bg-surface-container-high text-primary material-symbols-outlined">zoom_in</span>
+</div>
+</div>
+<div class="p-4 flex-1">
+<p class="font-body-sm text-body-sm text-text-secondary leading-relaxed">
+              Edición YAML en GNU nano con IP estática <code class="text-primary font-mono">192.168.196.150/24</code> y gateway <code class="text-secondary font-mono">192.168.196.203</code>.
+            </p>
+</div>
+</div>
+<!-- Evidencia 07 -->
+<div class="rounded-xl bg-surface-container overflow-hidden flex flex-col group hover:bg-surface-container-high transition-all shadow-md">
+<div class="p-3 bg-surface-container-high flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-primary/20 text-primary font-label-sm text-label-sm font-bold">EVIDENCIA 07 · cap6.png</span>
+<span class="material-symbols-outlined text-text-secondary text-[16px]">image</span>
+</div>
+<div class="relative overflow-hidden bg-surface-container-lowest cursor-pointer" onclick="openModal('https://lh3.googleusercontent.com/aida-public/AB6AXuBrrCEO77q6mn_BDhf_Tjmc70Im76sCJ9s1oP76h_nqTpo_60NnUYRyhWUwoXDSTk6xXpjndOUOgt64qmFWqKRICp3df8ZZeOpIAe-tibLMeDnAVmNmBk9mLjzQFDGw4d_2EJrNll7EKjNa9-0EdvqtrcFYCjJzMFnX1Mla1XNmR9LiAx4nboPcMhHD0G6ew-IzOlX8YOya2009KoW07AaXiYzyeZhD1qRVbFeCLOfnvD_5DtNpt9Oxcg', 'Evidencia 07: Aplicación con netplan apply')">
+<img alt="Evidencia 07 - cap6.png" class="w-full h-52 object-cover object-top group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBrrCEO77q6mn_BDhf_Tjmc70Im76sCJ9s1oP76h_nqTpo_60NnUYRyhWUwoXDSTk6xXpjndOUOgt64qmFWqKRICp3df8ZZeOpIAe-tibLMeDnAVmNmBk9mLjzQFDGw4d_2EJrNll7EKjNa9-0EdvqtrcFYCjJzMFnX1Mla1XNmR9LiAx4nboPcMhHD0G6ew-IzOlX8YOya2009KoW07AaXiYzyeZhD1qRVbFeCLOfnvD_5DtNpt9Oxcg"/>
+<div class="absolute inset-0 bg-surface/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="p-2 rounded-full bg-surface-container-high text-primary material-symbols-outlined">zoom_in</span>
+</div>
+</div>
+<div class="p-4 flex-1">
+<p class="font-body-sm text-body-sm text-text-secondary leading-relaxed">
+              Aplicación con <code class="text-primary font-mono">sudo netplan apply</code> y verificación exitosa de 192.168.196.150/24 en <code class="text-secondary font-mono">enp0s3</code>.
+            </p>
+</div>
+</div>
+<!-- Evidencia 08 -->
+<div class="rounded-xl bg-surface-container overflow-hidden flex flex-col group hover:bg-surface-container-high transition-all shadow-md">
+<div class="p-3 bg-surface-container-high flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-primary/20 text-primary font-label-sm text-label-sm font-bold">EVIDENCIA 08 · cap7.png</span>
+<span class="material-symbols-outlined text-text-secondary text-[16px]">image</span>
+</div>
+<div class="relative overflow-hidden bg-surface-container-lowest cursor-pointer" onclick="openModal('https://lh3.googleusercontent.com/aida-public/AB6AXuCXEDOFsRM0dqp9paAb27JQ3v0N80Rz3OYUlkmzDclsu9U-mX9NaMwBPdInpw2IifSORs1yKCw-28PWXzmqNLVoLVA8uwx8516ebBGf7nycaJXItTNg8ZQ4rYHzJ-embrluUjAzlsyg6J5M2WRZMSOYx5aY-GKjaXQpVYB1KR54ulSFNcslbl68uwXNY_zMrmhJRK0-7vuUpGr15ozTtStIUjGJdycGMtmx_Y_3T6shEXOcCWJoI-T3SA', 'Evidencia 08: Activación de UFW Firewall')">
+<img alt="Evidencia 08 - cap7.png" class="w-full h-52 object-cover object-top group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXEDOFsRM0dqp9paAb27JQ3v0N80Rz3OYUlkmzDclsu9U-mX9NaMwBPdInpw2IifSORs1yKCw-28PWXzmqNLVoLVA8uwx8516ebBGf7nycaJXItTNg8ZQ4rYHzJ-embrluUjAzlsyg6J5M2WRZMSOYx5aY-GKjaXQpVYB1KR54ulSFNcslbl68uwXNY_zMrmhJRK0-7vuUpGr15ozTtStIUjGJdycGMtmx_Y_3T6shEXOcCWJoI-T3SA"/>
+<div class="absolute inset-0 bg-surface/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="p-2 rounded-full bg-surface-container-high text-primary material-symbols-outlined">zoom_in</span>
+</div>
+</div>
+<div class="p-4 flex-1">
+<p class="font-body-sm text-body-sm text-text-secondary leading-relaxed">
+              Activación de UFW permitiendo OpenSSH y 80/tcp verificada mediante <code class="text-primary font-mono">sudo ufw status</code>.
+            </p>
+</div>
+</div>
+<!-- Evidencia 09 -->
+<div class="rounded-xl bg-surface-container overflow-hidden flex flex-col group hover:bg-surface-container-high transition-all shadow-md">
+<div class="p-3 bg-surface-container-high flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-secondary/20 text-secondary font-label-sm text-label-sm font-bold">EVIDENCIA 09 · cap8.png</span>
+<span class="material-symbols-outlined text-text-secondary text-[16px]">image</span>
+</div>
+<div class="relative overflow-hidden bg-surface-container-lowest cursor-pointer" onclick="openModal('https://lh3.googleusercontent.com/aida-public/AB6AXuB3K-Ay8ioaH0lPiRAAqdKjv_IsIT1wKSOQD-K5IXybxLYeROp9gfnp1yHf9EMLMQtu55w_pw74JtYx__LEQsoDPccqe5UfLEjUKpfBJod_3-XUG9fbNPNAwuFQ4GCghfofsmOTNoQcrs7A1Sa4wk7AJTFllFB56bKgZp01ClT4bwQpGOIb_ApRTzTkkLDLwFOZgNgycLFk2gZMWCuNjJ8kEs_hLiJmDojvDqk82HEUkXIT1KAibnEwBQ', 'Evidencia 09: Conexión SSH desde Windows')">
+<img alt="Evidencia 09 - cap8.png" class="w-full h-52 object-cover object-top group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3K-Ay8ioaH0lPiRAAqdKjv_IsIT1wKSOQD-K5IXybxLYeROp9gfnp1yHf9EMLMQtu55w_pw74JtYx__LEQsoDPccqe5UfLEjUKpfBJod_3-XUG9fbNPNAwuFQ4GCghfofsmOTNoQcrs7A1Sa4wk7AJTFllFB56bKgZp01ClT4bwQpGOIb_ApRTzTkkLDLwFOZgNgycLFk2gZMWCuNjJ8kEs_hLiJmDojvDqk82HEUkXIT1KAibnEwBQ"/>
+<div class="absolute inset-0 bg-surface/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="p-2 rounded-full bg-surface-container-high text-primary material-symbols-outlined">zoom_in</span>
+</div>
+</div>
+<div class="p-4 flex-1">
+<p class="font-body-sm text-body-sm text-text-secondary leading-relaxed">
+              Primera conexión remota SSH exitosa desde Windows hacia <code class="text-secondary font-mono">nikotina@192.168.196.150</code>.
+            </p>
+</div>
+</div>
+<!-- Evidencia 10 -->
+<div class="rounded-xl bg-surface-container overflow-hidden flex flex-col group hover:bg-surface-container-high transition-all shadow-md">
+<div class="p-3 bg-surface-container-high flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-primary/20 text-primary font-label-sm text-label-sm font-bold">EVIDENCIA 10 · cap9.png</span>
+<span class="material-symbols-outlined text-text-secondary text-[16px]">image</span>
+</div>
+<div class="relative overflow-hidden bg-surface-container-lowest cursor-pointer" onclick="openModal('https://lh3.googleusercontent.com/aida-public/AB6AXuC2woS4kFNqKLqEWixzdLIzs4AYdvu9p_d7mXN9VueoX9ViKCzbOXhX4ZoazU4N7hglfZOlyc8C_q6hVsA7U4G0XOTO8ssUdNbAZFGq__cu5GQJUw6fwGMcxtqop1CHwsbubxJ3T1Qs7MXgbLBhUuwndtLU78aiJUKEnqp-gNTTBCPE_HdQbDwv_WyfTLKIklUwizOgbYulXZ6Yg6XzYAAGBoAitCLpt0cimL70Jr1v3iYLvERIXhXr6A', 'Evidencia 10: Apache2 Default Page en navegador')">
+<img alt="Evidencia 10 - cap9.png" class="w-full h-52 object-cover object-top group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2woS4kFNqKLqEWixzdLIzs4AYdvu9p_d7mXN9VueoX9ViKCzbOXhX4ZoazU4N7hglfZOlyc8C_q6hVsA7U4G0XOTO8ssUdNbAZFGq__cu5GQJUw6fwGMcxtqop1CHwsbubxJ3T1Qs7MXgbLBhUuwndtLU78aiJUKEnqp-gNTTBCPE_HdQbDwv_WyfTLKIklUwizOgbYulXZ6Yg6XzYAAGBoAitCLpt0cimL70Jr1v3iYLvERIXhXr6A"/>
+<div class="absolute inset-0 bg-surface/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="p-2 rounded-full bg-surface-container-high text-primary material-symbols-outlined">zoom_in</span>
+</div>
+</div>
+<div class="p-4 flex-1">
+<p class="font-body-sm text-body-sm text-text-secondary leading-relaxed">
+              Navegador en Windows cargando la página “Apache2 Default Page” en <code class="text-primary font-mono">http://192.168.196.150</code>.
+            </p>
+</div>
+</div>
+<!-- Evidencia 11 -->
+<div class="rounded-xl bg-surface-container overflow-hidden flex flex-col group hover:bg-surface-container-high transition-all shadow-md">
+<div class="p-3 bg-surface-container-high flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-secondary/20 text-secondary font-label-sm text-label-sm font-bold">EVIDENCIA 11 · cap10.png</span>
+<span class="material-symbols-outlined text-text-secondary text-[16px]">image</span>
+</div>
+<div class="relative overflow-hidden bg-surface-container-lowest cursor-pointer" onclick="openModal('https://lh3.googleusercontent.com/aida-public/AB6AXuDbPVQAXunFVgwCooL-w-nlLk_K0O7vtpJa6aOJoLqBpnMqnWyjAfSnUPrL6QxMuQ7jZEsooNZP5y6xm0y41wMBWmFDw1aSrk7fmST45HnQHaNOTyDg8yK0qnvhkYHus_dhFAyQE6OJNVYalcCdX2ro4U5WVGJwwZpVUNTI28J1O-hFblJb9Mf3bgsHIr4beNBSGS8MC2I3MFiPmHtTFsIxRi9uEHTTi3awfvWbgzRvLJbf-Zb47djRRA', 'Evidencia 11: Sesión SSH activa desde Windows')">
+<img alt="Evidencia 11 - cap10.png" class="w-full h-52 object-cover object-top group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbPVQAXunFVgwCooL-w-nlLk_K0O7vtpJa6aOJoLqBpnMqnWyjAfSnUPrL6QxMuQ7jZEsooNZP5y6xm0y41wMBWmFDw1aSrk7fmST45HnQHaNOTyDg8yK0qnvhkYHus_dhFAyQE6OJNVYalcCdX2ro4U5WVGJwwZpVUNTI28J1O-hFblJb9Mf3bgsHIr4beNBSGS8MC2I3MFiPmHtTFsIxRi9uEHTTi3awfvWbgzRvLJbf-Zb47djRRA"/>
+<div class="absolute inset-0 bg-surface/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="p-2 rounded-full bg-surface-container-high text-primary material-symbols-outlined">zoom_in</span>
+</div>
+</div>
+<div class="p-4 flex-1">
+<p class="font-body-sm text-body-sm text-text-secondary leading-relaxed">
+              Sesión SSH activa y estable desde PowerShell en Windows operando como <code class="text-secondary font-mono">nikotina@servidor-01</code>.
+            </p>
+</div>
+</div>
+<!-- Evidencia 12 -->
+<div class="rounded-xl bg-surface-container overflow-hidden flex flex-col group hover:bg-surface-container-high transition-all shadow-md">
+<div class="p-3 bg-surface-container-high flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-primary/20 text-primary font-label-sm text-label-sm font-bold">EVIDENCIA 12 · cap12.png</span>
+<span class="material-symbols-outlined text-text-secondary text-[16px]">image</span>
+</div>
+<div class="relative overflow-hidden bg-surface-container-lowest cursor-pointer" onclick="openModal('https://lh3.googleusercontent.com/aida-public/AB6AXuAgxJFxD9rwWHUybzFm5jKx-0q5WCdc_AeqKcbFE9cgLVVtn7__BavLRCIuZU-WXGksnbJcFo4Gv2m8DqPYdy1cnVn8kLteW3M9xu2QA9wqls7L7P9rB3KLld_ZPa1rGPWBXXWW15PmDWb-OAVO7Hli1siqvufCh0rOU3smj0ERrg2j0gV11riS-cqh7mvv35QaJJ2iUoPpNTqdSpJRC5WY9gbLM8d81CobcyIJl4KelAhva4FU-S4wIA', 'Evidencia 12: Comprobación systemctl status de ambos servicios')">
+<img alt="Evidencia 12 - cap12.png" class="w-full h-52 object-cover object-top group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgxJFxD9rwWHUybzFm5jKx-0q5WCdc_AeqKcbFE9cgLVVtn7__BavLRCIuZU-WXGksnbJcFo4Gv2m8DqPYdy1cnVn8kLteW3M9xu2QA9wqls7L7P9rB3KLld_ZPa1rGPWBXXWW15PmDWb-OAVO7Hli1siqvufCh0rOU3smj0ERrg2j0gV11riS-cqh7mvv35QaJJ2iUoPpNTqdSpJRC5WY9gbLM8d81CobcyIJl4KelAhva4FU-S4wIA"/>
+<div class="absolute inset-0 bg-surface/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="p-2 rounded-full bg-surface-container-high text-primary material-symbols-outlined">zoom_in</span>
+</div>
+</div>
+<div class="p-4 flex-1">
+<p class="font-body-sm text-body-sm text-text-secondary leading-relaxed">
+              Comprobación con <code class="text-primary font-mono">systemctl status ssh apache2 --no-pager</code> mostrando ambos servicios <span class="text-primary font-semibold">active (running)</span>.
+            </p>
+</div>
+</div>
+<!-- Evidencia 13 -->
+<div class="rounded-xl bg-surface-container overflow-hidden flex flex-col group hover:bg-surface-container-high transition-all shadow-md lg:col-span-3">
+<div class="p-3 bg-surface-container-high flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-secondary/20 text-secondary font-label-sm text-label-sm font-bold">EVIDENCIA 13 · cap13.png</span>
+<span class="font-label-sm text-label-sm text-primary font-mono font-medium">Validación Final ICMP</span>
+</div>
+<div class="relative overflow-hidden bg-surface-container-lowest cursor-pointer" onclick="openModal('https://lh3.googleusercontent.com/aida-public/AB6AXuCoFQWSlI4jNCYV38Td5abInqKd2muPkxak45FTFNsEgecWxNuJaXDmm64c3RSyY3MKhrIBR0Uk2SIkUbpx40siyW2fBgNSZFHmVC6optkDA-l4a9QiMqWzk8NXnSyQkVHbsBsz61EybEbZlhMbesYmORVbtaBJ1ExGWPLdnRuzrkczXP-NrlQzk_TPhC0hnrdACXXvQF_zf0AYuVHeRQ3dGIOk4HSHTIhBvzZbgjtZksky7-cRZGgfaA', 'Evidencia 13: Prueba de ping desde PowerShell con 0% paquetes perdidos')">
+<img alt="Evidencia 13 - cap13.png" class="w-full h-64 md:h-80 object-cover object-top group-hover:scale-102 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCoFQWSlI4jNCYV38Td5abInqKd2muPkxak45FTFNsEgecWxNuJaXDmm64c3RSyY3MKhrIBR0Uk2SIkUbpx40siyW2fBgNSZFHmVC6optkDA-l4a9QiMqWzk8NXnSyQkVHbsBsz61EybEbZlhMbesYmORVbtaBJ1ExGWPLdnRuzrkczXP-NrlQzk_TPhC0hnrdACXXvQF_zf0AYuVHeRQ3dGIOk4HSHTIhBvzZbgjtZksky7-cRZGgfaA"/>
+<div class="absolute inset-0 bg-surface/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="p-2 rounded-full bg-surface-container-high text-primary material-symbols-outlined">zoom_in</span>
+</div>
+</div>
+<div class="p-4">
+<p class="font-body-md text-body-md text-text-secondary">
+              Prueba <code class="text-secondary font-mono">ping 192.168.196.150</code> desde PowerShell en Windows: <strong>4 paquetes enviados, 4 recibidos y 0% de pérdidas</strong>, ratificando la integración perfecta en capa 3.
+            </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Modal Visor de Imágenes -->
+<div class="fixed inset-0 z-50 bg-surface-container-lowest/90 backdrop-blur-md hidden items-center justify-center p-4" id="image-modal">
+<div class="max-w-5xl w-full bg-surface-container rounded-xl overflow-hidden shadow-2xl flex flex-col">
+<div class="p-4 bg-surface-container-high flex items-center justify-between">
+<span class="font-code-md text-code-md text-text-primary" id="modal-caption"></span>
+<button class="text-text-secondary hover:text-primary" onclick="closeModal()">
+<span class="material-symbols-outlined text-[24px]">close</span>
+</button>
+</div>
+<div class="p-2 bg-surface-container-lowest flex items-center justify-center max-h-[75vh] overflow-hidden">
+<img alt="Zoom Evidencia" class="max-w-full max-h-[72vh] object-contain rounded" id="modal-img" src=""/>
+</div>
+</div>
+</div>
+<!-- SECCIÓN 9: DIAGNÓSTICO DE ERRORES (#diagnostico) -->
+<section class="scroll-mt-24 space-y-6" id="diagnostico">
+<div class="flex items-center gap-3">
+<span class="px-2.5 py-1 rounded bg-status-error/15 text-status-error font-label-md text-label-md font-semibold">#09. RESOLUCIÓN DE PROBLEMAS Y DIAGNÓSTICO</span>
+<div class="h-px bg-surface-container-high flex-1"></div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+<!-- Error 1 -->
+<div class="p-6 rounded-xl bg-surface-container space-y-4 hover:bg-surface-container-high transition-colors">
+<div class="flex items-center gap-2 text-status-error">
+<span class="material-symbols-outlined text-[22px]">warning</span>
+<span class="font-label-sm text-label-sm font-bold uppercase tracking-wider">INCIDENCIA 01</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary font-mono">
+            sudo: 'dhclient': command not found
+          </h3>
+<div class="space-y-2 text-text-secondary font-body-md text-body-md">
+<p><strong class="text-text-primary">Causa:</strong> La utilidad tradicional <code>dhclient</code> no viene preinstalada en esta versión de Ubuntu Server, la cual delega la gestión a <code class="text-secondary font-mono">systemd-networkd</code>.</p>
+<p><strong class="text-primary">Solución Técnica:</strong> No se requirió ninguna instalación adicional. Se prescindió del comando dado que la meta era fijar la IP estática directamente mediante el archivo de Netplan.</p>
+</div>
+</div>
+<!-- Error 2 -->
+<div class="p-6 rounded-xl bg-surface-container space-y-4 hover:bg-surface-container-high transition-colors">
+<div class="flex items-center gap-2 text-status-warning">
+<span class="material-symbols-outlined text-[22px]">cloud_off</span>
+<span class="font-label-sm text-label-sm font-bold uppercase tracking-wider">INCIDENCIA 02</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary">
+            Aislamiento de red en modo NAT
+          </h3>
+<div class="space-y-2 text-text-secondary font-body-md text-body-md">
+<p><strong class="text-text-primary">Causa:</strong> El modo NAT por defecto en VirtualBox aísla la máquina virtual en un segmento privado (10.0.2.x), impidiendo que el anfitrión Windows alcance sus puertos directamente.</p>
+<p><strong class="text-primary">Solución Técnica:</strong> Modificar el adaptador de red en la configuración de la VM a <strong>Adaptador puente</strong>, logrando que el servidor obtenga presencia en la red física real.</p>
+</div>
+</div>
+<!-- Error 3 -->
+<div class="p-6 rounded-xl bg-surface-container space-y-4 hover:bg-surface-container-high transition-colors">
+<div class="flex items-center gap-2 text-status-error">
+<span class="material-symbols-outlined text-[22px]">shield_with_heart</span>
+<span class="font-label-sm text-label-sm font-bold uppercase tracking-wider">INCIDENCIA 03</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-text-primary">
+            Bloqueo tras activar UFW
+          </h3>
+<div class="space-y-2 text-text-secondary font-body-md text-body-md">
+<p><strong class="text-text-primary">Causa:</strong> Activar el cortafuegos antes de registrar las reglas provoca el bloqueo total de puertos entrantes, cerrando cualquier sesión de administración remota.</p>
+<p><strong class="text-primary">Solución Técnica:</strong> Ejecutar con antelación <code class="text-primary font-mono">sudo ufw allow OpenSSH</code> y <code class="text-secondary font-mono">sudo ufw allow 80/tcp</code> asegurando la continuidad operativa antes de hacer <code>enable</code>.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- SECCIÓN 10: EVALUACIÓN INTERACTIVA (#evaluacion) -->
+<section class="scroll-mt-24 space-y-6" id="evaluacion">
+<div class="flex items-center gap-3">
+<span class="px-2.5 py-1 rounded bg-secondary/15 text-secondary font-label-md text-label-md font-semibold">#10. EVALUACIÓN Y VALIDACIÓN TÉCNICA</span>
+<div class="h-px bg-surface-container-high flex-1"></div>
+</div>
+<div class="max-w-4xl mx-auto bg-surface-container-low rounded-xl p-8 md:p-10 shadow-2xl space-y-8">
+<div class="border-b border-surface-variant/40 pb-6 flex items-center justify-between">
+<div>
+<h2 class="font-headline-md text-headline-md text-text-primary">Cuestionario de Certificación del Lab</h2>
+<p class="font-body-md text-body-md text-text-secondary mt-1">Valida los conocimientos teóricos y prácticos adquiridos en el despliegue.</p>
+</div>
+<div class="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded bg-surface-container font-label-sm text-label-sm text-primary">
+<span class="material-symbols-outlined text-[16px]">quiz</span>
+<span>5 Preguntas</span>
+</div>
+</div>
+<form class="space-y-8" id="quiz-form">
+<!-- Pregunta 1 -->
+<div class="p-6 rounded-xl bg-surface-container space-y-4" data-question="q1">
+<div class="flex items-start justify-between gap-4">
+<span class="font-headline-sm text-headline-sm text-text-primary">
+                1. ¿Cuál es la función principal de Netplan en Ubuntu Server?
+              </span>
+<span class="feedback-badge font-label-sm text-label-sm px-2 py-0.5 rounded hidden"></span>
+</div>
+<div class="space-y-2">
+<label class="flex items-center gap-3 p-3 rounded-lg bg-surface-container-low hover:bg-surface-variant cursor-pointer transition-colors">
+<input class="accent-primary w-4 h-4" name="q1" type="radio" value="a"/>
+<span class="font-body-md text-body-md text-on-surface">a) Instalar paquetes web como Apache2.</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-lg bg-surface-container-low hover:bg-surface-variant cursor-pointer transition-colors">
+<input class="accent-primary w-4 h-4" name="q1" type="radio" value="b"/>
+<span class="font-body-md text-body-md text-on-surface">b) Gestionar la configuración de red mediante archivos YAML.</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-lg bg-surface-container-low hover:bg-surface-variant cursor-pointer transition-colors">
+<input class="accent-primary w-4 h-4" name="q1" type="radio" value="c"/>
+<span class="font-body-md text-body-md text-on-surface">c) Bloquear puertos entrantes en el firewall.</span>
+</label>
+</div>
+</div>
+<!-- Pregunta 2 -->
+<div class="p-6 rounded-xl bg-surface-container space-y-4" data-question="q2">
+<div class="flex items-start justify-between gap-4">
+<span class="font-headline-sm text-headline-sm text-text-primary">
+                2. ¿Qué ventaja ofrece el modo Adaptador puente frente a NAT en VirtualBox?
+              </span>
+<span class="feedback-badge font-label-sm text-label-sm px-2 py-0.5 rounded hidden"></span>
+</div>
+<div class="space-y-2">
+<label class="flex items-center gap-3 p-3 rounded-lg bg-surface-container-low hover:bg-surface-variant cursor-pointer transition-colors">
+<input class="accent-primary w-4 h-4" name="q2" type="radio" value="a"/>
+<span class="font-body-md text-body-md text-on-surface">a) Integra la VM directamente a la red local para acceso directo.</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-lg bg-surface-container-low hover:bg-surface-variant cursor-pointer transition-colors">
+<input class="accent-primary w-4 h-4" name="q2" type="radio" value="b"/>
+<span class="font-body-md text-body-md text-on-surface">b) Oculta la VM completamente del equipo anfitrión.</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-lg bg-surface-container-low hover:bg-surface-variant cursor-pointer transition-colors">
+<input class="accent-primary w-4 h-4" name="q2" type="radio" value="c"/>
+<span class="font-body-md text-body-md text-on-surface">c) Desactiva el protocolo TCP/IP.</span>
+</label>
+</div>
+</div>
+<!-- Pregunta 3 -->
+<div class="p-6 rounded-xl bg-surface-container space-y-4" data-question="q3">
+<div class="flex items-start justify-between gap-4">
+<span class="font-headline-sm text-headline-sm text-text-primary">
+                3. ¿Qué puertos se habilitaron en UFW para SSH y Apache2?
+              </span>
+<span class="feedback-badge font-label-sm text-label-sm px-2 py-0.5 rounded hidden"></span>
+</div>
+<div class="space-y-2">
+<label class="flex items-center gap-3 p-3 rounded-lg bg-surface-container-low hover:bg-surface-variant cursor-pointer transition-colors">
+<input class="accent-primary w-4 h-4" name="q3" type="radio" value="a"/>
+<span class="font-body-md text-body-md text-on-surface">a) Puertos 21 y 443.</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-lg bg-surface-container-low hover:bg-surface-variant cursor-pointer transition-colors">
+<input class="accent-primary w-4 h-4" name="q3" type="radio" value="b"/>
+<span class="font-body-md text-body-md text-on-surface">b) Puertos 25 y 53.</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-lg bg-surface-container-low hover:bg-surface-variant cursor-pointer transition-colors">
+<input class="accent-primary w-4 h-4" name="q3" type="radio" value="c"/>
+<span class="font-body-md text-body-md text-on-surface">c) Puertos 22 (OpenSSH) y 80 (HTTP).</span>
+</label>
+</div>
+</div>
+<!-- Pregunta 4 -->
+<div class="p-6 rounded-xl bg-surface-container space-y-4" data-question="q4">
+<div class="flex items-start justify-between gap-4">
+<span class="font-headline-sm text-headline-sm text-text-primary">
+                4. ¿Qué comando verifica el estado activo de ssh y apache2?
+              </span>
+<span class="feedback-badge font-label-sm text-label-sm px-2 py-0.5 rounded hidden"></span>
+</div>
+<div class="space-y-2">
+<label class="flex items-center gap-3 p-3 rounded-lg bg-surface-container-low hover:bg-surface-variant cursor-pointer transition-colors">
+<input class="accent-primary w-4 h-4" name="q4" type="radio" value="a"/>
+<span class="font-body-md text-body-md text-on-surface">a) ip route show default</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-lg bg-surface-container-low hover:bg-surface-variant cursor-pointer transition-colors">
+<input class="accent-primary w-4 h-4" name="q4" type="radio" value="b"/>
+<span class="font-body-md text-body-md text-on-surface">b) systemctl status ssh apache2 --no-pager</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-lg bg-surface-container-low hover:bg-surface-variant cursor-pointer transition-colors">
+<input class="accent-primary w-4 h-4" name="q4" type="radio" value="c"/>
+<span class="font-body-md text-body-md text-on-surface">c) sudo netplan apply</span>
+</label>
+</div>
+</div>
+<!-- Pregunta 5 -->
+<div class="p-6 rounded-xl bg-surface-container space-y-4" data-question="q5">
+<div class="flex items-start justify-between gap-4">
+<span class="font-headline-sm text-headline-sm text-text-primary">
+                5. ¿Por qué un servidor utiliza direccionamiento IP estático?
+              </span>
+<span class="feedback-badge font-label-sm text-label-sm px-2 py-0.5 rounded hidden"></span>
+</div>
+<div class="space-y-2">
+<label class="flex items-center gap-3 p-3 rounded-lg bg-surface-container-low hover:bg-surface-variant cursor-pointer transition-colors">
+<input class="accent-primary w-4 h-4" name="q5" type="radio" value="a"/>
+<span class="font-body-md text-body-md text-on-surface">a) Para mantener siempre la misma dirección y garantizar conectividad estable.</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-lg bg-surface-container-low hover:bg-surface-variant cursor-pointer transition-colors">
+<input class="accent-primary w-4 h-4" name="q5" type="radio" value="b"/>
+<span class="font-body-md text-body-md text-on-surface">b) Para cambiar de IP cada vez que se reinicia.</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded-lg bg-surface-container-low hover:bg-surface-variant cursor-pointer transition-colors">
+<input class="accent-primary w-4 h-4" name="q5" type="radio" value="c"/>
+<span class="font-body-md text-body-md text-on-surface">c) Para evitar usar un gateway.</span>
+</label>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-4">
+<button class="w-full sm:w-auto px-8 py-3.5 rounded-lg bg-primary text-surface-container-lowest font-headline-sm text-headline-sm font-bold hover:shadow-lg hover:shadow-primary/25 transition-all" onclick="evaluateQuiz()" type="button">
+              Enviar Respuestas
+            </button>
+<div class="font-code-lg text-code-lg text-text-primary font-bold hidden" id="quiz-result-score"></div>
+</div>
+<div class="p-4 rounded-lg hidden font-body-md text-body-md" id="quiz-result-msg"></div>
+</form>
+</div>
+</section>
+<!-- SECCIÓN 11: BIBLIOGRAFÍA (#bibliografia) -->
+<section class="scroll-mt-24 space-y-6" id="bibliografia">
+<div class="flex items-center gap-3">
+<span class="px-2.5 py-1 rounded bg-primary/15 text-primary font-label-md text-label-md font-semibold">#11. FUENTES Y REFERENCIAS</span>
+<div class="h-px bg-surface-container-high flex-1"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Fuentes Oficiales -->
+<div class="p-6 rounded-xl bg-surface-container space-y-4">
+<div class="flex items-center gap-2 text-primary">
+<span class="material-symbols-outlined text-[22px]">menu_book</span>
+<span class="font-headline-sm text-headline-sm font-semibold">Documentación Oficial</span>
+</div>
+<ul class="space-y-3 font-body-md text-body-md">
+<li class="p-3 rounded-lg bg-surface-container-low flex items-start justify-between gap-2">
+<div>
+<div class="text-text-primary font-medium">Ubuntu Server Documentation</div>
+<div class="font-code-md text-code-md text-secondary break-all">https://ubuntu.com/server/docs</div>
+</div>
+<span class="material-symbols-outlined text-outline text-[18px]">open_in_new</span>
+</li>
+<li class="p-3 rounded-lg bg-surface-container-low flex items-start justify-between gap-2">
+<div>
+<div class="text-text-primary font-medium">Netplan Reference Guide</div>
+<div class="font-code-md text-code-md text-secondary break-all">https://netplan.readthedocs.io/</div>
+</div>
+<span class="material-symbols-outlined text-outline text-[18px]">open_in_new</span>
+</li>
+<li class="p-3 rounded-lg bg-surface-container-low flex items-start justify-between gap-2">
+<div>
+<div class="text-text-primary font-medium">Apache HTTP Server Documentation</div>
+<div class="font-code-md text-code-md text-secondary break-all">https://httpd.apache.org/docs/2.4/</div>
+</div>
+<span class="material-symbols-outlined text-outline text-[18px]">open_in_new</span>
+</li>
+</ul>
+</div>
+<!-- Herramientas de IA Empleadas -->
+<div class="p-6 rounded-xl bg-surface-container space-y-4">
+<div class="flex items-center gap-2 text-secondary">
+<span class="material-symbols-outlined text-[22px]">smart_toy</span>
+<span class="font-headline-sm text-headline-sm font-semibold">Herramientas de IA Empleadas</span>
+</div>
+<div class="space-y-3 font-body-md text-body-md">
+<div class="p-4 rounded-lg bg-surface-container-low space-y-1">
+<div class="text-text-primary font-semibold flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">palette</span>
+<span>Google Stitch</span>
+</div>
+<p class="text-text-secondary">Diseño UI, sistema de tokens en modo consola oscura y generación frontend adaptada a estándares web.</p>
+</div>
+<div class="p-4 rounded-lg bg-surface-container-low space-y-1">
+<div class="text-text-primary font-semibold flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">psychology</span>
+<span>Gemini</span>
+</div>
+<p class="text-text-secondary">Estructuración técnica, validación de sintaxis de comandos Netplan/UFW y soporte en redacción pedagógica de la guía técnica.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<script>
+    function copyCode(btn) {
+      const container = btn.closest('.rounded-lg');
+      const code = container.querySelector('code');
+      if (code) {
+        navigator.clipboard.writeText(code.innerText.trim()).then(() => {
+          const originalHTML = btn.innerHTML;
+          btn.innerHTML = '<span class="material-symbols-outlined text-[14px] text-primary">check</span><span class="text-primary">¡Copiado!</span>';
+          setTimeout(() => {
+            btn.innerHTML = originalHTML;
+          }, 2000);
+        });
+      }
+    }
+
+    function openModal(imgSrc, caption) {
+      const modal = document.getElementById('image-modal');
+      const modalImg = document.getElementById('modal-img');
+      const modalCaption = document.getElementById('modal-caption');
+      modalImg.src = imgSrc;
+      modalCaption.textContent = caption;
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function closeModal() {
+      const modal = document.getElementById('image-modal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    document.getElementById('image-modal').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeModal();
+      }
+    });
+
+    const correctAnswers = {
+      q1: 'b',
+      q2: 'a',
+      q3: 'c',
+      q4: 'b',
+      q5: 'a'
+    };
+
+    function evaluateQuiz() {
+      let score = 0;
+      const total = 5;
+
+      for (let i = 1; i <= total; i++) {
+        const qKey = 'q' + i;
+        const selected = document.querySelector(`input[name="${qKey}"]:checked`);
+        const card = document.querySelector(`[data-question="${qKey}"]`);
+        const badge = card.querySelector('.feedback-badge');
+
+        badge.classList.remove('hidden', 'bg-primary/20', 'text-primary', 'bg-status-error/20', 'text-status-error');
+
+        if (selected && selected.value === correctAnswers[qKey]) {
+          score++;
+          badge.classList.add('bg-primary/20', 'text-primary');
+          badge.textContent = '✓ Correcto';
+        } else {
+          badge.classList.add('bg-status-error/20', 'text-status-error');
+          badge.textContent = '✗ Incorrecto';
+        }
+      }
+
+      const scoreDisplay = document.getElementById('quiz-result-score');
+      const msgDisplay = document.getElementById('quiz-result-msg');
+
+      scoreDisplay.classList.remove('hidden');
+      scoreDisplay.textContent = `Puntuación: ${score} / ${total}`;
+
+      msgDisplay.classList.remove('hidden', 'bg-primary/10', 'text-primary', 'bg-status-error/10', 'text-status-error');
+      if (score === 5) {
+        msgDisplay.classList.add('bg-primary/10', 'text-primary');
+        msgDisplay.innerHTML = '<strong>¡Excelente desempeño!</strong> Has respondido con 100% de precisión todos los conceptos clave de este laboratorio.';
+      } else if (score >= 3) {
+        msgDisplay.classList.add('bg-secondary/10', 'text-secondary');
+        msgDisplay.innerHTML = '<strong>Buen trabajo.</strong> Has alcanzado la aprobación técnica. Te recomendamos repasar los parámetros de red y cortafuegos indicados en los fallos.';
+      } else {
+        msgDisplay.classList.add('bg-status-error/10', 'text-status-error');
+        msgDisplay.innerHTML = '<strong>Repaso requerido.</strong> Revisa las evidencias paso a paso y la sección de fundamentos para afianzar el flujo de configuración.';
+      }
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest border-t border-border-subtle py-space-lg"><div class="w-full px-gutter flex flex-col md:flex-row items-center justify-between gap-space-sm text-center md:text-left"><div class="font-code-md text-code-md text-text-secondary"><span class="text-primary font-medium">Grupo 6 — La Marraqueta</span> | Isaac Palacios y Nicolás Zuleta | <span class="text-on-surface">3.º Medio Programación - Sistemas Operativos (OA 2 / AE 2.1)</span></div><div class="font-label-sm text-label-sm text-outline flex items-center gap-space-xs"><span class="material-symbols-outlined text-[14px]">terminal</span><span>KERNEL_DOC // BUILD 2024.1</span></div></div></footer></body></html>
